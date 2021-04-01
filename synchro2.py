@@ -161,9 +161,6 @@ def cipher(msg, st, iters, initial):
 
 if __name__ == "__main__":
     initial = [10, 10, 10, -10, 15, 15, 15, 15, 1, 1, 1, 1]
-    ciphered = cipher(msg="daniel santos", st=1000,
-                      iters=1200, initial=initial)
-    print("Ciphered message = {}".format(ciphered))
     ciphered = cipher(msg="bghocj&ughriu", st=1000,
                       iters=1200, initial=initial)
     print("Ciphered message = {}".format(ciphered))
